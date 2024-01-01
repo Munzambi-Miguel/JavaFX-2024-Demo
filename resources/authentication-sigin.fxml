@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="247.0" layoutY="163.0" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #000E2A;" HBox.hgrow="ALWAYS" />
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #ffff;" HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox maxWidth="300.0">
+                     <children>
+                        <Label text="Username" textFill="#02041fbe" />
+                        <TextField maxWidth="300.0" prefHeight="30.0" promptText="Digite qui o seu email / Nº telefone" style="-fx-background-color: transparent; -fx-border-color: #ccc;" />
+                     </children>
+                  </VBox>
+                  <VBox maxWidth="300.0">
+                     <children>
+                        <Label text="Senha" textFill="#02041fc3" />
+                        <PasswordField maxWidth="300.0" prefHeight="30.0" promptText="Digite a sua senha" style="-fx-background-color: transparent; -fx-border-color: #ccc;" />
+                     </children>
+                  </VBox>
+                  <Button maxHeight="35.0" maxWidth="300.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" style="-fx-background-color: #000E2A;" text="Button" textFill="WHITE" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

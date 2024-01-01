@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="276.0" layoutY="139.0" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox minWidth="600.0" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #181C32;" HBox.hgrow="ALWAYS" />
+            <VBox alignment="CENTER" focusTraversable="true" minWidth="600.0" prefHeight="200.0" prefWidth="100.0" spacing="20.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox maxWidth="300.0" spacing="5.0">
+                     <children>
+                        <Label text="Usuario .*" textFill="#3f4254">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField focusTraversable="false" maxHeight="35.0" maxWidth="300.0" prefHeight="35.0" promptText="Digite o teu email / Nº Telefone" style="-fx-background-color: transparent; -fx-border-color: #B5B5C3;" />
+                        <Text fill="#ff000083" strokeType="OUTSIDE" strokeWidth="0.0" text="é importante inserir o nº telefonico ou email valído">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+                  <VBox maxWidth="300.0">
+                     <children>
+                        <Label text="Senha. *" textFill="#3f4254">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <PasswordField focusTraversable="false" maxHeight="35.0" maxWidth="300.0" prefHeight="35.0" promptText="Digite a tua senha" style="-fx-background-color: transparent; -fx-border-color: #B5B5C3;" />
+                        <Text fill="#fa6161a5" strokeType="OUTSIDE" strokeWidth="0.0" text="é importante que digites uma senha valída">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+                  <Button maxHeight="35.0" maxWidth="300.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" style="-fx-background-color: #181C32;" text="iniciar a secção" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
