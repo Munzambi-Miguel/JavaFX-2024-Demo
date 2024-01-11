@@ -1,0 +1,16 @@
+.left-panel-container{
+    -fx-background-color:#181C32
+}
+
+.rigth-panel-container{
+    -fx-background-color:#F4F4F4
+   
+}
+
+.controller-btn-primary{
+    -fx-background-color: #084298;
+}
+
+.controller-btn-success{
+    -fx-background-color:  #146c43;
+}

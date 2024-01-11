@@ -1,0 +1,31 @@
+.apps-header{
+    -fx-background-color:#009a3f
+}
+
+.main-navbar-right {
+    -fx-border-color:  #bdbdbd; 
+    -fx-border-width: 0 1 0 0; 
+    -fx-border-style: solid;
+}
+
+.main-navbar-left {
+    -fx-border-color:  #bdbdbd; 
+    -fx-border-width: 0 0 0 1; 
+    -fx-border-style: solid;
+}
+
+.apps-footer {
+    -fx-background-color:  #454c4c;
+}
+
+.color-neutral-220{
+    -fx-background-color:#c6c6c6
+}
+
+.root-panel-content {
+    -fx-background-color:#fff
+}
+
+.apps-text-success {
+    -fx-text-fill:#009a3f!important
+}

@@ -1,0 +1,12 @@
+.textfield{
+    -fx-background-color: transparent !important;
+   
+}
+
+.border-coler{
+    -fx-border-color:#B5B5C3
+}
+
+.border-radius{
+    -fx-border-radius: 5px!important;
+}
